@@ -25,7 +25,7 @@ Koyeb è un'ottima alternativa a Render, più veloce e senza il "periodo di sosp
 3.  Collega il tuo repository `SelfVix`.
 4.  Nelle impostazioni di configurazione:
     -   **Builder**: Assicurati che sia selezionato `Docker`.
-    -   **Dockerfile Path**: Inserisci `Dockerfile.render` (o il nome del file che hai usato).
+    -   **Dockerfile Path**: Inserisci `Dockerfile.hf` (o il nome del file che hai usato).
     -   **Port**: Imposta `7000`.
 5.  Clicca su **Deploy**. L'addon sarà online in pochi minuti.
 
@@ -34,7 +34,7 @@ Ottimo come backup gratuito.
 
 1.  Crea un nuovo **Space** su [Hugging Face](https://huggingface.co/spaces).
 2.  Scegli **Docker** come SDK e il template **Blank**.
-3.  Carica i file del progetto (tramite interfaccia web o Git).
+3.  Carica i file del progetto (tramite interfaccia web o Git, FATE IL FORK DEL PROGETTO E RINOMINATE DOCKER.HF con il vostro user GITHUB!).
 4.  **Importante**: Hugging Face cerca un file chiamato esattamente `Dockerfile`.
     -   Rinomina `Dockerfile.hf` in `Dockerfile` durante il caricamento o copia il suo contenuto in un nuovo file `Dockerfile` nella root dello Space.
 5.  Lo Space si avvierà automaticamente sulla porta `7860`.
